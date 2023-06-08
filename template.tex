@@ -19,12 +19,12 @@
 %\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.75]{geometry}
-%\setlength{\hintscolumnwidth}{2cm}                % if you want to change the width of the column with the dates
+\usepackage[scale=0.8]{geometry}
+\setlength{\hintscolumnwidth}{3.2cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvheadnamewidth}{10cm}            % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-\name{Alec}{Lee}
+\name{}{Alec Lee}
 %\title{Résumé title}                               % optional, remove / comment the line if not wanted
 %\born{4 July 1776}                                 % optional, remove / comment the line if not wanted
 %\address{1849 Golden Gate Avenue Apt 2}{San Francisco}{CA}% optional, remove / comment the line if not wanted; the "postcode city" and "country" arguments can be omitted or provided empty
@@ -76,58 +76,62 @@
 \makecvtitle
 \section{Experience}
 %\subsection{Vocational}
-\cventry{2021}{Staff Engineer}{VaccinateCA}{}{}{
-From March to May in 2021, I worked for VaccinateCA, a volunteer-driven COVID-19 nonprofit.
+\cventry{Aug 2022 -- Apr 2023}{Senior Software Engineer}{Discord}{}{}{
+	Tech lead for the Gaming team. Primarily worked with TypesScript React / React Native frontends, occasionally with Python APIs, and rarely with Elixir real time systems.
+	\begin{itemize} 
+		\item Responsible for team's technical communications with external partners. Led Discord's PS5 voice integration.
+		\item Supported other team initiatives, including Discord's Xbox integration and in-game rewards for streaming on Discord.\newline{}
+	\end{itemize}}
+
+\cventry{Jul 2021 -- Aug 2022}{Senior Software Engineer}{Discord}{}{}{
+	Fullstack engineer for the Notifications team.
+	\begin{itemize} 
+		\item Led development for Discord's in-app upsell framework and notification center.
+		\item Created the tooling for sending and monitoring emails / push notifications.\newline{}
+	\end{itemize}}
+
+\cventry{Mar 2021 -- May 2021}{Staff Engineer}{VaccinateCA}{}{}{
+In response to COVID-19, joined VaccinateCA, a volunteer-driven COVID-19 nonprofit.
 \begin{itemize}
-\item Worked on VaccinateCA's web frontend initiatives. Led development of vaccinatethestates.com and contributed to vaccinateca.com. Continue to maintain both codebases for volunteers.
-\item Built internal web apps for volunteers. Created a phone/web banking app and a vaccination site deduplication game for volunteers.\newline{}
+\item Built VaccinateCA's web frontends for finding and cataloging vaccination centers. Worked on vaccinatethestates.com, vaccinateca.com, and various internal tools. Maintained codebases for volunteers.\newline{}
 \end{itemize}}
 
-
-\cventry{2018--2020}{Engineering Manager}{Twitch}{}{}{
-From August 2018 to December 2020, I managed the Viewer Experience, Product Engineering team.
+\cventry{Aug 2018 -- Dec 2020}{Engineering Manager}{Twitch}{}{}{
+Managed the Viewer Experience, Product Engineering team. The team was responsible for channel page, content discovery, and SEO initiatives. Built backend services with Go/AWS, web frontends with React, and occasionally contributed to native Android/iOS with Kotlin/Swift.
 \begin{itemize}
-\item Team was responsible for channel page, content discovery, and SEO initiatives. Built backend services with Go/AWS, web frontends with React, and occasionally contributed to native Android/iOS with Kotlin/Swift.
 \item Grew the team from four to eight engineers and was responsible for the team's people development. Promoted four engineers and trained another for management.
 \item Partnered with product managers to build the team's product roadmap, built the team's technical roadmap, and ran project execution.\newline{}
 \end{itemize}}
 
-\cventry{2018}{Senior Frontend Engineer}{Twitch}{}{}{
-From February to August in 2018, I was a senior engineer for the Growth team. 
+\cventry{Oct 2017 -- Aug 2018}{Senior Frontend Engineer}{Twitch}{}{}{
+Frontend engineer on both the Mobile Web Platform and Growth teams.
 \begin{itemize}
-\item Led the team's web frontend initiatives and worked with a React/TypeScript/Apollo stack.
-\item Rewrote Twitch's web login to native React. Optimized p90 loading time of login from 6000ms to 600ms.\newline{}
+\item Led the Growth team's web frontend initiatives. Rewrote Twitch's web login to React and optimized p90 loading time of login from 6000ms to 600ms.
+\item Helped migrate m.twitch.tv to a Next.js\newline{}
 \end{itemize}}
 
-\cventry{2017--2018}{Mobile Web Platform Engineer}{Twitch}{}{}{
-From October 2017 to February 2018, I was a mobile web platform engineer. 
+\cventry{May 2013-- Oct 2017}{Android Engineer}{Twitch}{}{}{
+Twitch's first full-time Android engineer. Went from intern, to contractor, to team lead.
 \begin{itemize}
-\item I helped rewrite m.twitch.tv to a React/TypeScript/Relay/Next.js stack that was heavily optimized for time to load.\newline{}
-\end{itemize}}
-
-\cventry{2013--2017}{Android Engineer}{Twitch}{}{}{
-I was Twitch's first full-time Android engineer. Went from intern, to contractor, to team lead.
-\begin{itemize}
-\item Responsible for leading team decisions on app architecture and best practices.
-\item Led the app rewrite from 2016-2017 to modernize the codebase with Kotlin and MVP architecture.\newline{}
+\item Responsible for leading team decisions on app architecture and best practices. Modernized the codebase with Kotlin and MVP architecture.\newline{}
 \end{itemize}}
 
 \cventry{2012}{Software Engineer Intern}{Mixpanel}{}{}{
-Full stack intern for web and mobile analytics startup.
+Full stack intern for web and mobile analytics startup. 
 \begin{itemize}
 \item Helped build Mixpanel's initial people analytics product and worked on the Android SDK.\newline{}
 \end{itemize}
 }
 
 \cventry{2011}{Software Engineer Intern}{Sourcefire}{}{}{
-Intern for network security company Sourcefire.
+Intern for network security company Sourcefire. 
 \begin{itemize}
-\item Wrote small lua scripts that detected suspicious applications and protocols.\newline{}
+\item Wrote small Lua scripts that detected suspicious applications and protocols.\newline{}
 \end{itemize}
 }
 
 \section{Education}
-\cventry{2010--2014}{B.S. Computer Science}{Brown University}{}{}{Teaching assistant for CS32 - Intro to software engineering, CS123 - Intro to computer graphics, and CS132 - Modern web apps}  % arguments 3 to 6 can be left empty
+\cventry{2010--2014}{B.S. Computer Science}{Brown University}{}{}{}  % arguments 3 to 6 can be left empty
 
 
 \clearpage
